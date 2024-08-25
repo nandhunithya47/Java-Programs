@@ -8,7 +8,7 @@ public class RectanglePerimeter {
         float breadth = scanner.nextFloat();
         float RectanglePerimeter=2*(length+breadth);
         System.out.println("Perimeter of rectangle is: "+RectanglePerimeter);
-        
+        scanner.close();
     }
 
 }

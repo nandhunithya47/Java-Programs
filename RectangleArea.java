@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class RectangleArea {
+class RectangleArea {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the length of Rectangle in cm : ");
@@ -8,7 +8,7 @@ public class RectangleArea {
         float breadth = scanner.nextFloat();
         float RectangleArea=length*breadth;
         System.out.println("Area of rectangle is: "+RectangleArea);
-        
+        scanner.close();
     }
 
 }

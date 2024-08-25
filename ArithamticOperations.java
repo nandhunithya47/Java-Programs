@@ -33,6 +33,7 @@ public class ArithamticOperations {
         else{
             System.out.println("Incorrect choice!");
         }
+        scanner.close();
         
     }
 
