@@ -11,8 +11,8 @@ public class CompoundInterest {
         System.out.println("enter number of times interest is compounded per year: ");
         int n =scanner.nextInt();
         double d = P*Math.pow(1+(r/(n*100)),(n*t));
-        double e = d-P;
-        System.out.println("compound Interest is: "+e);
+        
+        System.out.println("compound Interest is: "+d);
         scanner.close();
     }
 }
